@@ -4,7 +4,7 @@ const item = require('mysql');
 
 const app = express();
 
-app.use(express.static(__dirname + '/../client/dist'));
+app.use(express.static(__dirname + '../react-client/index.html'));
 
 app.get('/', function(req, res){
   items.selectAll(function(err, data){
