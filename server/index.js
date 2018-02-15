@@ -1,12 +1,12 @@
-const expess = require('express');
+const express = require('express');
 const bodyParser = require('body-parser');
-const item = require('database-mysql');
+const item = require('mysql');
 
 const app = express();
 
-app.use(express.static(_dirname + '/../react-client/dist'));
+app.use(express.static(__dirname + '/../client/dist'));
 
-app.get('/items', function(req, res){
+app.get('/', function(req, res){
   items.selectAll(function(err, data){
     if(err) {
     res.sendStatus(err);
@@ -16,5 +16,5 @@ app.get('/items', function(req, res){
   });
 });
 app.listen(3000, function(){
-  conole.log('listening on port 300')
+  console.log('listening on port 3000')
 });
