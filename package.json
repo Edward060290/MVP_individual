@@ -1,0 +1,23 @@
+{
+  "name": "mvp_individual",
+  "version": "1.0.0",
+  "description": "<!-- > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edward060290/MVP_individual.git"
+  },
+  "author": "Edward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edward060290/MVP_individual/issues"
+  },
+  "homepage": "https://github.com/Edward060290/MVP_individual#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
